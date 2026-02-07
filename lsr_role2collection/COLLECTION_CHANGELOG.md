@@ -1,6 +1,16 @@
 Changelog
 =========
 
+[1.119.1] - 2026-02-07
+---------------------
+
+### Bug Fixes
+
+- snapshot - fix: check create_snapshot_set function for boot parameter (#148)
+- snapshot - fix: problem with bootable flag not getting passed properly to snapm (#138)
+- storage - fix: Volume with no size is same as size 100% - fixes divide by zero error (#583)
+- timesync - fix: check for existence of runlevel, chkconfig, service before using them (#325)
+
 [1.119.0] - 2026-01-29
 ---------------------
 
