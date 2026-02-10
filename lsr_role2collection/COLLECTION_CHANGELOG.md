@@ -1,6 +1,13 @@
 Changelog
 =========
 
+[1.120.0] - 2026-02-10
+---------------------
+
+### New Features
+
+- selinux - feat: Add support for DCCP and SCTP protocols to selinux_port (#325)
+
 [1.119.1] - 2026-02-07
 ---------------------
 
