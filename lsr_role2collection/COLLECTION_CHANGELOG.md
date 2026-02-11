@@ -1,6 +1,13 @@
 Changelog
 =========
 
+[1.120.1] - 2026-02-11
+---------------------
+
+### Bug Fixes
+
+- vpn - fix: use host for dict key in tunnel - hostname is not a dict key (#236)
+
 [1.120.0] - 2026-02-10
 ---------------------
 

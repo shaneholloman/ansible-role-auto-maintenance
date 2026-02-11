@@ -52,7 +52,7 @@ ha_cluster:
   ref: 1.29.0
   sourcenum: 17
 vpn:
-  ref: 1.6.15
+  ref: 1.6.16
   sourcenum: 18
 firewall:
   ref: 1.11.4
