@@ -1,6 +1,13 @@
 Changelog
 =========
 
+[1.120.2] - 2026-02-12
+---------------------
+
+### Bug Fixes
+
+- timesync - fix: use ansible_facts timesync_ntp_provider_current (#331)
+
 [1.120.1] - 2026-02-11
 ---------------------
 
