@@ -1,6 +1,16 @@
 Changelog
 =========
 
+[1.120.3] - 2026-02-18
+---------------------
+
+### Bug Fixes
+
+- firewall - fix: el7 interface functionality requires NetworkManager (#323)
+- firewall - fix: add set vars platform vars loader (#322)
+- ha_cluster - fix: ostree - add dnf/dnf5 package, add firewall packages (#358)
+- selinux - fix: when does not prevent template expansion in name with import_role (#331)
+
 [1.120.2] - 2026-02-12
 ---------------------
 
