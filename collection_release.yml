@@ -55,7 +55,7 @@ vpn:
   ref: 1.6.16
   sourcenum: 18
 firewall:
-  ref: 1.11.5
+  ref: 1.11.6
   sourcenum: 19
 cockpit:
   ref: 1.7.4
