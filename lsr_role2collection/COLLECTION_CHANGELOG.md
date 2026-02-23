@@ -1,6 +1,13 @@
 Changelog
 =========
 
+[1.120.5] - 2026-02-23
+---------------------
+
+### Bug Fixes
+
+- storage - fix: ensure libblockdev-loop package on EL7 for loop mounts (#591)
+
 [1.120.4] - 2026-02-20
 ---------------------
 
