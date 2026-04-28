@@ -1,6 +1,53 @@
 Changelog
 =========
 
+[1.122.0] - 2026-04-28
+---------------------
+
+### New Features
+
+- ad_integration - feat: add role fingerprints to syslog (#188)
+- aide - feat: add role fingerprints to syslog (#81)
+- bootloader - feat: add role fingerprints to syslog (#205)
+- certificate - feat: add role fingerprints to syslog (#329)
+- cockpit - feat: add role fingerprints to syslog (#271)
+- crypto_policies - feat: add role fingerprints to syslog (#191)
+- fapolicyd - feat: add role fingerprints to syslog (#107)
+- firewall - feat: add role fingerprints to syslog (#345)
+- gfs2 - feat: add role fingerprints to syslog (#95)
+- ha_cluster - feat: export stonith levels (#376)
+- ha_cluster - feat: add role fingerprints to syslog (#375)
+- ha_cluster - feat: crmsh - Add support for QDevice, Qnet and Diskless SBD (#374)
+- journald - feat: add role fingerprints to syslog (#154)
+- kdump - feat: add role fingerprints to syslog (#287)
+- kernel_settings - feat: add role fingerprints to syslog (#308)
+- keylime_server - feat: add role fingerprints to syslog (#125)
+- logging - feat: add role fingerprints to syslog (#499)
+- metrics - feat: add role fingerprints to syslog (#312)
+- nbde_client - feat: add role fingerprints to syslog (#254)
+- nbde_server - feat: add role fingerprints to syslog (#232)
+- network - feat: add role fingerprints to syslog (#861)
+- podman - feat: add role fingerprints to syslog (#283)
+- postfix - feat: add role fingerprints to syslog (#231)
+- postgresql - feat: add role fingerprints to syslog (#181)
+- postgresql - feat: add SUSE/openSUSE support (#172)
+- rhc - feat: add role fingerprints to syslog (#273)
+- selinux - feat: add role fingerprints to syslog (#345)
+- snapshot - feat: add role fingerprints to syslog (#165)
+- snapshot - feat: add list command to report the status of LVM snapshots for specified VGs/LVs (#164)
+- ssh - feat: add role fingerprints to syslog (#236)
+- storage - feat: add role fingerprint to system journal (#614)
+- sudo - feat: add role fingerprints to syslog (#113)
+- systemd - feat: add role fingerprints to syslog (#141)
+- timesync - feat: add role fingerprints to syslog (#345)
+- tlog - feat: add role fingerprints to syslog (#216)
+- vpn - feat: add role fingerprints to syslog (#250)
+
+### Bug Fixes
+
+- storage - fix: use correct encryption_key parameter, improve error messages (#601)
+- sudo - fix: enable CI tests for openSUSE leap; handle missing /etc/sudoers (#112)
+
 [1.121.0] - 2026-03-16
 ---------------------
 
